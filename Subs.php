@@ -51,13 +51,12 @@ class Subs extends PageTranslator
 <html>
 <head>
 <title>xkcd Substitutions</title>
-<link rel="shortcut icon" href="http://xkcdsubs.peeto.net/favicon.ico" />
 <script src="https://apis.google.com/js/platform.js" async defer></script>
 </head>
 <body>
 <h1>xkcd Substitutions</h1>
 <p>Enter a URL of a web page:</p>
-<form method="post" action="http://xkcdsubs.peeto.net/">
+<form method="post" action="index.php">
 <input type="text" name="<?php echo self::INPUTFIELDNAME; ?>" /> <input type="submit" value="Fun" />
 </form>
 <br />
